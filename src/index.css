@@ -66,11 +66,15 @@ code {
   height: auto;
   display: block;
   position: relative;
-  background: url('./assets/bgs/bgimage1.jpg') no-repeat center;
+  background:linear-gradient(100deg, rgba(0, 0, 0, 1), rgba(35, 31, 32, 0.6)), url('./assets/bgs/bgimage1.jpg') no-repeat center;
   background-size: cover;
-  padding: 70px 0;
+  padding: 90px 15px;
   background-attachment: fixed;
 }
+/* .parallaxBG{
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 70px 0;
+} */
 
 
 

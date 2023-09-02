@@ -35,9 +35,9 @@ const p12 = "3 Months Hobby Certificate Course For Kids";
           backgroundSize: "cover",
           position: "relative"
         }}>
-        <div className='w-full lg:w-3/5 mx-auto px-4'>
+        <div className='w-full lg:w-3/5 mx-auto md:px-2 px-6 py-6'>
         <h1 className='font-bold text-[3vh] text-center py-6'>Our Cources</h1>
-        <div className='grid lg:grid-cols-4 grid-col-1 gap-6'>
+        <div className='grid lg:grid-cols-4 grid-col-1 gap-6 '>
         <CourceCard image={sket1} para={p1}></CourceCard>
         <CourceCard image={sket2} para={p2}></CourceCard>
         <CourceCard image={sket3} para={p3}></CourceCard>

@@ -15,9 +15,9 @@ function Home() {
     <Header/>
     <Carosoule/>
     <Heros/>
-    {/* <OnlineClass/> */}
+    <OnlineClass/>
     <OurCource/>
-    {/* <StudentWork/> */}
+    <StudentWork/>
     <StudentTestimonial/>
     <Footer/>
     <div className="p-2 text-3xl text-white bg-green-500 rounded-full shadow-xl shadow-gray-500 outline-none fixed bottom-28 right-4">

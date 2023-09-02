@@ -6,7 +6,7 @@ function StudentTestimonial() {
         <h2 className="font-bold text-[3vh] text-center pb-6 text-white">
           Student's Testimonial
         </h2>
-        <div className=" grid lg:grid-cols-3 grid-cols-1 gap-10 px-4">
+        <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 px-4">
           <div className="border-4 mx-auto">
             <iframe
               className=""
