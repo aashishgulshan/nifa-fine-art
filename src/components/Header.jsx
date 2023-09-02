@@ -49,19 +49,39 @@ export default function Header() {
                 <img src={logo} alt="brand-log" className=" object-cover h-14" />
 
             </div>
+            {/* <div className="mx-auto">
+              <div className="md:hidden block">
+                <img src={logo} alt="brand-log" className=" object-cover h-14" />
+
+              </div>
+            
+            <div className=" text-center text-indigo-900 md:hidden block">
+            <span className="flex space-x-2">
+                <HiMail className="mt-1"></HiMail>
+                <span className="">admission@nifafinearts.com</span>
+              </span>
+            <span className="flex space-x-2">
+                <FaPhoneAlt className="mt-1 text-xs"></FaPhoneAlt>
+                <span className="">9555112200/9810130552</span>
+              </span>
+
+            </div>
+
+            </div> */}
+            
             <div className="flex flex-wrap items-center justify-center space-x-6 mx-auto lg:mx-0">
-                <ul className="nav-list flex flex-wrap px-2 py-2 space-x-3">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Courses</li>
-                    <li>Activities</li>
-                    <li>Admission</li>
-                    <li>Art gallery</li>
-                    <li>Franchise</li>
-                    <li>Online Classes</li>
-                    <li>Video</li>
-                    <li>Pay Fee</li>
-                    <li>Contact</li>
+                <ul className="nav-list flex flex-wrap px-2 py-2 space-x-3 ">
+                    <li className="hidden md:block">Home</li>
+                    <li className="hidden md:block">About</li>
+                    <li className="hidden md:block">Courses</li>
+                    <li className="hidden md:block">Activities</li>
+                    <li className="hidden md:block">Admission</li>
+                    <li className="hidden md:block">Art gallery</li>
+                    <li className="hidden md:block">Franchise</li>
+                    <li className="hidden md:block">Online Classes</li>
+                    <li className="hidden md:block">Video</li>
+                    <li className="hidden md:block">Pay Fee</li>
+                    <li className="hidden md:block">Contact</li>
                 </ul>
 
             </div>
