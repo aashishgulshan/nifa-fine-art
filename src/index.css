@@ -31,10 +31,47 @@ code {
   animation-duration: 7000ms;
   border-color: #812868;
 }
-.footer a{
-  font-weight: 2px;
 
-}
 .footer a:hover{
   color: #812868;
 }
+
+
+.pac{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  /* margin-bottom: 4rem; */
+  text-align: center;
+}
+.pac:hover{
+  transition: 0.4s;
+  transform: translateY(-6px);
+  box-shadow: 0 25px 60px 0 rgba(0, 0, 0, 0.2)
+}
+
+#student-container {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  background: url('./assets//bgs/student-talk.jpg') no-repeat center;
+  background-size: cover;
+  padding: 70px 0;
+  background-attachment: fixed;
+}
+
+#Online{
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  background: url('./assets/bgs/bgimage1.jpg') no-repeat center;
+  background-size: cover;
+  padding: 70px 0;
+  background-attachment: fixed;
+}
+
+
+
+

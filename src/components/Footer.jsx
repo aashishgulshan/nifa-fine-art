@@ -17,10 +17,10 @@ function Footer() {
           <div class="container px-5 py-10 mx-auto">
             <div class="flex flex-wrap -m-4">
               <div class="p-4 lg:w-1/4 w-1/2">
-                <h2 class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-left">
+                <h2 class="tracking-widest text-gray-900 mb-3 text-base lg:text-sm font-semibold text-left">
                   Company
                 </h2>
-                <nav class="flex flex-col sm:items-start text-left font-normal text-sm -mb-1 space-y-1">
+                <nav class="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
                   <a>About</a>
                   <a>Facilities</a>
                   <a>Career</a>
@@ -31,10 +31,10 @@ function Footer() {
                 </nav>
               </div>
               <div class="p-4 lg:w-1/4 w-1/2">
-                <h2 class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-left">
+                <h2 class="font-semibold tracking-widest text-gray-900 mb-3 text-base lg:text-sm text-left">
                   Activities
                 </h2>
-                <nav class="flex flex-col sm:items-start text-left font-normal text-sm -mb-1 space-y-1">
+                <nav class="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
                   <a>Art Gallery</a>
                   <a>Workshops</a>
                   <a>Outdoor Activities</a>
@@ -45,10 +45,10 @@ function Footer() {
                 </nav>
               </div>
               <div class="p-4 lg:w-1/4 w-1/2 ">
-                <h2 class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-left">
+                <h2 class="font-semibold tracking-widest text-gray-900 mb-3 text-base lg:text-sm text-left">
                   Popular Course
                 </h2>
-                <nav class="flex flex-col sm:items-start text-left font-normal text-sm -mb-1 space-y-1">
+                <nav class="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
                   <a>Diploma in Fine Arts</a>
                   <a>Certificate Hobby Course</a>
                   <a>Entrance Preparation</a>
@@ -58,14 +58,14 @@ function Footer() {
                 </nav>
               </div>
               <div class="p-4 lg:w-1/4 w-1/2">
-                <h2 class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-left">
+                <h2 class="font-semibold tracking-widest text-gray-900 mb-3 text-base lg:text-sm text-left">
                   Our Locations
                 </h2>
-                <nav class="flex flex-col sm:items-start text-left font-normal text-sm  -mb-1 space-y-1">
+                <nav class="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
                   <a>Gurgaon (Dlf Phase - 4)</a>
                   <a>Mumbai (Andheri West)</a>
                   <a>South Delhi (Kailash Colony)</a>
-                  <h2 className="font-medium title-font tracking-widest text-gray-900 text-sm py-3">International Branches</h2>
+                  <h2 className="font-semibold tracking-widest text-gray-900 text-base lg:text-sm py-3">International Branches</h2>
                   <a>London</a>
                   <a>USA</a>
                   <a>Dubai, UAE</a>
@@ -75,12 +75,12 @@ function Footer() {
 
             {/* footer end */}
 
-            <div className="flex flex-col md:flex-row justify-between items-center mt-12">
-              <div className="md:w-1/2 lg:w-3/5">
-                <p className="font-medium title-font tracking-widest text-gray-900 mb-1">
+            <div className="flex flex-col md:flex-row justify-between items-start mt-12">
+              <div className="md:w-1/2 lg:w-3/5 text-left">
+                <p className="text-lg lg:text-base tracking-wider text-gray-900 mb-1">
                   NIFA is a unit of Nifaedutech Pvt Ltd.
                 </p>
-                <p className="font-medium title-font tracking-widest text-gray-900 mb-1">
+                <p className="text-lg lg:text-base tracking-wider text-gray-900 mb-2">
                   Connect with us:
                 </p>
                 <p>
@@ -103,14 +103,14 @@ function Footer() {
                 <p>
                   <a
                     href="mailto:admission@nifafinearts.com"
-                    className="text-sm font-light"
+                    className="text-base lg:text-sm my-2 font-light"
                     target="_top"
                   >
                     admission@nifafinearts.com
                   </a>
                 </p>
-                <ul className="flex space-x-4 mt-2">
-                  <li className="bg-white p-2 rounded-full text-blue-600">
+                <ul className="flex space-x-5 mt-2">
+                  <li className="bg-white p-2 text-xl lg:text-base shadow rounded-full text-blue-600">
                     <a
                       href="https://www.facebook.com/nifafinearts"
                       target="_blank"
@@ -119,7 +119,7 @@ function Footer() {
                       <FaFacebookF/>
                     </a>
                   </li>
-                  <li className=" bg-white p-2 rounded-full text-cyan-500">
+                  <li className=" bg-white p-2 text-xl lg:text-base shadow rounded-full text-cyan-500">
                     <a
                       href="https://twitter.com/artsnifa?lang=en"
                       target="_blank"
@@ -128,7 +128,7 @@ function Footer() {
                       <FaTwitter/>
                     </a>
                   </li>
-                  <li className="bg-white p-2 rounded-full text-red-600">
+                  <li className="bg-white p-2 text-xl lg:text-base shadow rounded-full text-red-600">
                     <a
                       href="https://instagram.com/nifafinearts?igshid=9ni7d0aogzed"
                       target="_blank"
@@ -137,7 +137,7 @@ function Footer() {
                       <FaInstagram/>
                     </a>
                   </li>
-                  <li className="bg-white p-2 rounded-full text-red-500">
+                  <li className="bg-white p-2 text-xl lg:text-base shadow rounded-full text-red-500">
                     <a
                       href="https://www.youtube.com/channel/UCud0pfiZT-Ph2JX1_tN6rbw"
                       target="_blank"
@@ -148,9 +148,9 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="md:w-1/2 lg:w-2/5 mt-4 md:mt-0 text-right">
-                <p className="text-base">Download the app</p>
-                <ul className="flex items-end justify-end space-x-3 nappimg mb-0 mt-2">
+              <div className="md:w-1/2 lg:w-2/5 mt-4 md:mt-0 lg:text-right text-left">
+                <p className="text-lg tracking-wide">Download the app</p>
+                <ul className="flex items-end justify-end gap-5 nappimg mb-0 mt-2">
                   <li className="">
                     <a
                       href="https://play.google.com/store/apps/details?id=co.thanos.fljvr"

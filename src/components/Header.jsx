@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <>
       <header>
-        <div className="bg-gradient-to-r from-[#812868] to-[#f954a4] text-white text-sm font-light py-1">
+        <div className="bg-gradient-to-r from-[#812868] to-[#f954a4] text-white text-sm font-light py-2">
           <div className="w-full lg:w-3/5 mx-auto flex flex-wrap items-center justify-between">
             <div className="mx-auto lg:mx-0">
               Welcome to the National Institute of Fine Arts
