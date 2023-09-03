@@ -1,4 +1,8 @@
 import React from 'react';
+import img1 from "../assets/studentWork/img1.jpg"
+import img2 from "../assets/studentWork/img2.jpg"
+import img3 from "../assets/studentWork/img3.jpg"
+
 
 export default function Test() {
   return (
