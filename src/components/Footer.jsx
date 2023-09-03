@@ -21,13 +21,13 @@ function Footer() {
                   Company
                 </h2>
                 <nav className="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
-                  <a>About</a>
-                  <a>Facilities</a>
-                  <a>Career</a>
-                  <a>Contact us</a>
-                  <a>Terms & Conditions</a>
-                  <a>Refund Policy</a>
-                  <a>Privacy Policy</a>
+                  <a href="#">About</a>
+                  <a href="#">Facilities</a>
+                  <a href="#">Career</a>
+                  <a href="#">Contact us</a>
+                  <a href="#">Terms & Conditions</a>
+                  <a href="#">Refund Policy</a>
+                  <a href="#">Privacy Policy</a>
                 </nav>
               </div>
               <div className="p-4 lg:w-1/4 w-1/2">
@@ -35,13 +35,13 @@ function Footer() {
                   Activities
                 </h2>
                 <nav className="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
-                  <a>Art Gallery</a>
-                  <a>Workshops</a>
-                  <a>Outdoor Activities</a>
-                  <a>Media Coverage</a>
-                  <a>Art Events</a>
-                  <a>Exhibition</a>
-                  <a>Daily Activities</a>
+                  <a href="#">Art Gallery</a>
+                  <a href="#">Workshops</a>
+                  <a href="#">Outdoor Activities</a>
+                  <a href="#">Media Coverage</a>
+                  <a href="#">Art Events</a>
+                  <a href="#">Exhibition</a>
+                  <a href="#">Daily Activities</a>
                 </nav>
               </div>
               <div className="p-4 lg:w-1/4 w-1/2 ">
@@ -49,12 +49,12 @@ function Footer() {
                   Popular Course
                 </h2>
                 <nav className="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
-                  <a>Diploma in Fine Arts</a>
-                  <a>Certificate Hobby Course</a>
-                  <a>Entrance Preparation</a>
-                  <a>BFA</a>
-                  <a>Animation Sketching</a>
-                  <a>Kids Diploma</a>
+                  <a href="#">Diploma in Fine Arts</a>
+                  <a href="#">Certificate Hobby Course</a>
+                  <a href="#">Entrance Preparation</a>
+                  <a href="#">BFA</a>
+                  <a href="#">Animation Sketching</a>
+                  <a href="#">Kids Diploma</a>
                 </nav>
               </div>
               <div className="p-4 lg:w-1/4 w-1/2">
@@ -62,13 +62,13 @@ function Footer() {
                   Our Locations
                 </h2>
                 <nav className="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
-                  <a>Gurgaon (Dlf Phase - 4)</a>
-                  <a>Mumbai (Andheri West)</a>
-                  <a>South Delhi (Kailash Colony)</a>
+                  <a href="#">Gurgaon (Dlf Phase - 4)</a>
+                  <a href="#">Mumbai (Andheri West)</a>
+                  <a href="#">South Delhi (Kailash Colony)</a>
                   <h2 className="font-semibold tracking-widest text-gray-900 text-base lg:text-sm py-3">International Branches</h2>
-                  <a>London</a>
-                  <a>USA</a>
-                  <a>Dubai, UAE</a>
+                  <a href="#">London</a>
+                  <a href="#">USA</a>
+                  <a href="#">Dubai, UAE</a>
                 </nav>
               </div>
             </div>

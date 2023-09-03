@@ -41,7 +41,6 @@ code {
   border-radius: 4px;
   background: #fff;
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
-  /* margin-bottom: 4rem; */
   text-align: center;
 }
 .pac:hover{
@@ -71,10 +70,7 @@ code {
   padding: 70px 15px;
   background-attachment: fixed;
 }
-/* .parallaxBG{
-  background-color: rgba(0, 0, 0, 0.2);
-  padding: 70px 0;
-} */
+
 
 
 
