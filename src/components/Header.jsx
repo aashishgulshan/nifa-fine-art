@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/logo/nifa-new-logo.png";
 import { HiMail } from "react-icons/hi";
+import { IoIosMail } from "react-icons/io";
 import {
   FaYoutube,
   FaInstagram,
@@ -50,84 +51,46 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="bg-white w-full lg:w-3/5 mx-auto lg:px-0 md:px-6 sm:px-4 px-2 flex flex-wrap items-center justify-between text-sm font-light">
-          <div>
-            <img src={logo} alt="brand-log" className=" object-cover h-14" />
-          </div>
-          {/* <div className="mx-auto">
-              <div className="md:hidden block">
-                <img src={logo} alt="brand-log" className=" object-cover h-14" />
-
-              </div>
-            
-            <div className=" text-center text-indigo-900 md:hidden block">
-            <span className="flex space-x-2">
-                <HiMail className="mt-1"></HiMail>
-                <span className="">admission@nifafinearts.com</span>
+        <div className="bg-white w-full lg:w-3/5 mx-auto lg:px-0 md:px-6 sm:px-4 px-2">
+          <div className="flex md:flex-row flex-col justify-between text-sm font-light">
+            <div className="mx-auto md:mx-0">
+              <img src={logo} alt="brand-log" className="h-14 object-cover" />
+            </div>
+            <div className="mx-auto md:hidden block py-2">
+              <span className="flex space-x-2 mb-2">
+                <IoIosMail className="mt-1 text-[#0b1f71] text-xl"></IoIosMail>
+                <span className="text-base tracking-wider">
+                  admission@nifafinearts.com
+                </span>
               </span>
-            <span className="flex space-x-2">
-                <FaPhoneAlt className="mt-1 text-xs"></FaPhoneAlt>
-                <span className="">9555112200/9810130552</span>
+              <span className="flex space-x-2">
+                <FaPhoneAlt className="mt-1 text-[#0b1f71] text-base"></FaPhoneAlt>
+                <span className="text-base tracking-wider">
+                  +91-9555112200 / 9810130552
+                </span>
               </span>
-
+            </div>
+            <div className="md:hidden block">
+              <p className="py-2 px-4 rounded bg-[#0b1f71] text-white mx-4 hover:border-2 border-yellow-500 text-base">
+                Home
+              </p>
             </div>
 
-            </div> */}
-
-          <div className="flex flex-wrap items-center justify-center space-x-6 mx-auto lg:mx-0">
-            <ul className="nav-list flex flex-wrap px-2 py-2 space-x-3 ">
-              <li className="hidden md:block">Home</li>
-              <li className="hidden md:block">About</li>
-              <li className="hidden md:block">Courses</li>
-              <li className="hidden md:block">Activities</li>
-              <li className="hidden md:block">Admission</li>
-              <li className="hidden md:block">Art gallery</li>
-              <li className="hidden md:block">Franchise</li>
-              <li className="hidden md:block">Online Classes</li>
-              <li className="hidden md:block">Video</li>
-              <li className="hidden md:block">Pay Fee</li>
-              <li className="hidden md:block">Contact</li>
+            <ul className="nav-list flex flex-wrap px-2 py-2 my-auto space-x-3">
+              <li className="md:block hidden">Home</li>
+              <li className="md:block hidden">About</li>
+              <li className="md:block hidden">Courses</li>
+              <li className="md:block hidden">Activities</li>
+              <li className="md:block hidden">Admission</li>
+              <li className="md:block hidden">Art gallery</li>
+              <li className="md:block hidden">Franchise</li>
+              <li className="md:block hidden">Online Classes</li>
+              <li className="md:block hidden">Video</li>
+              <li className="md:block hidden">Pay Fee</li>
+              <li className="md:block hidden">Contact</li>
             </ul>
           </div>
         </div>
-
-        {/* <nav
-          className="mx-auto flex md:mx-10 items-center justify-between p-4 lg:px-8"
-          aria-label="Global"
-        >
-          <div className="flex lg:flex-1">
-            <img src="" alt="" />
-          </div>
-
-          <div className="text-lg md:flex lg:flex-1 lg:justify-end gap-5">
-            <a
-              to="/About"
-              className=" hidden md:block font-semibold text-sky-600 py-2 px-4 rounded leading-6 hover:bg-gray-100"
-            >
-              About Us
-            </a>
-            <a
-              to="/Product"
-              className=" hidden md:block font-semibold text-sky-600 py-2 px-4 rounded leading-6 hover:bg-gray-100"
-            >
-              Product
-            </a>
-
-            <a
-              to="/Cart"
-              className="font-semibold block text-sky-600 py-2 px-4 rounded leading-6 hover:bg-gray-100"
-            >
-              Cart<span className="text-superscript text-red-500"></span>
-            </a>
-
-            <a
-              to="/Contact"
-              className="hidden md:block font-semibold text-white py-2 px-4 rounded-lg bg-blue-900"
-            >
-              Contact US
-            </a>
-          </div>
-        </nav> */}
       </header>
     </>
   );
