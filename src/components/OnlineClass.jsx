@@ -30,12 +30,19 @@ function OnlineClass() {
 
               <Button btnValue={"Read More"}></Button>
 
-              <h3 className="text-lg lg:text-xl mb-3 mt-10">
+              <h3 className="text-base lg:text-lg mb-3 mt-10">
                 Download The App
               </h3>
               <div className="flex gap-4">
-                <img src={playStore} alt="" className="h-10" />
-                <img src={appstore} alt="" className="h-10" />
+              <a href="https://play.google.com/store/apps/details?id=co.thanos.fljvr">
+                <img src={playStore} alt="" className="h-8" />
+                </a>
+                <a href="https://apps.apple.com/us/app/apple-store/id1472483563">
+                <img src={appstore} alt="" className="h-8" />
+                </a>
+                
+                
+               
               </div>
             </div>
             <div className="w-full m-auto">

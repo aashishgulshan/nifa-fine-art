@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo/nifa-new-logo.png"
+import logo from "../assets/logo/nifa-new-logo.png";
 import { HiMail } from "react-icons/hi";
 import {
   FaYoutube,
@@ -32,24 +32,29 @@ export default function Header() {
               </span>
 
               <div className="flex items-center space-x-2 text-xs">
-                <FaFacebookF />
+                <a href="https://www.facebook.com/nifafinearts">
+                  <FaFacebookF />
+                </a>
+                <a href="https://twitter.com/artsnifa?lang=en">
+                  <FaTwitter />
+                </a>
 
-                <FaTwitter />
-
-                <FaInstagram />
-
-                <FaYoutube />
+                <a href="https://instagram.com/nifafinearts?igshid=9ni7d0aogzed">
+                  <FaInstagram />
+                </a>
+                <a href="https://www.youtube.com/channel/UCud0pfiZT-Ph2JX1_tN6rbw">
+                  <FaYoutube />
+                </a>
               </div>
             </div>
           </div>
         </div>
 
         <div className="bg-white w-full lg:w-3/5 mx-auto lg:px-0 md:px-6 sm:px-4 px-2 flex flex-wrap items-center justify-between text-sm font-light">
-            <div>
-                <img src={logo} alt="brand-log" className=" object-cover h-14" />
-
-            </div>
-            {/* <div className="mx-auto">
+          <div>
+            <img src={logo} alt="brand-log" className=" object-cover h-14" />
+          </div>
+          {/* <div className="mx-auto">
               <div className="md:hidden block">
                 <img src={logo} alt="brand-log" className=" object-cover h-14" />
 
@@ -68,24 +73,22 @@ export default function Header() {
             </div>
 
             </div> */}
-            
-            <div className="flex flex-wrap items-center justify-center space-x-6 mx-auto lg:mx-0">
-                <ul className="nav-list flex flex-wrap px-2 py-2 space-x-3 ">
-                    <li className="hidden md:block">Home</li>
-                    <li className="hidden md:block">About</li>
-                    <li className="hidden md:block">Courses</li>
-                    <li className="hidden md:block">Activities</li>
-                    <li className="hidden md:block">Admission</li>
-                    <li className="hidden md:block">Art gallery</li>
-                    <li className="hidden md:block">Franchise</li>
-                    <li className="hidden md:block">Online Classes</li>
-                    <li className="hidden md:block">Video</li>
-                    <li className="hidden md:block">Pay Fee</li>
-                    <li className="hidden md:block">Contact</li>
-                </ul>
 
-            </div>
-
+          <div className="flex flex-wrap items-center justify-center space-x-6 mx-auto lg:mx-0">
+            <ul className="nav-list flex flex-wrap px-2 py-2 space-x-3 ">
+              <li className="hidden md:block">Home</li>
+              <li className="hidden md:block">About</li>
+              <li className="hidden md:block">Courses</li>
+              <li className="hidden md:block">Activities</li>
+              <li className="hidden md:block">Admission</li>
+              <li className="hidden md:block">Art gallery</li>
+              <li className="hidden md:block">Franchise</li>
+              <li className="hidden md:block">Online Classes</li>
+              <li className="hidden md:block">Video</li>
+              <li className="hidden md:block">Pay Fee</li>
+              <li className="hidden md:block">Contact</li>
+            </ul>
+          </div>
         </div>
 
         {/* <nav

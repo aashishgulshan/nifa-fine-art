@@ -14,13 +14,13 @@ function Footer() {
         }}
       >
         <section className="footer w-full lg:w-3/5 mx-auto  body-font">
-          <div class="container px-5 py-10 mx-auto">
-            <div class="flex flex-wrap -m-4">
-              <div class="p-4 lg:w-1/4 w-1/2">
-                <h2 class="tracking-widest text-gray-900 mb-3 text-base lg:text-sm font-semibold text-left">
+          <div className="container px-5 py-10 mx-auto">
+            <div className="flex flex-wrap -m-4">
+              <div className="p-4 lg:w-1/4 w-1/2">
+                <h2 className="tracking-widest text-gray-900 mb-3 text-base lg:text-sm font-semibold text-left">
                   Company
                 </h2>
-                <nav class="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
+                <nav className="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
                   <a>About</a>
                   <a>Facilities</a>
                   <a>Career</a>
@@ -30,11 +30,11 @@ function Footer() {
                   <a>Privacy Policy</a>
                 </nav>
               </div>
-              <div class="p-4 lg:w-1/4 w-1/2">
-                <h2 class="font-semibold tracking-widest text-gray-900 mb-3 text-base lg:text-sm text-left">
+              <div className="p-4 lg:w-1/4 w-1/2">
+                <h2 className="font-semibold tracking-widest text-gray-900 mb-3 text-base lg:text-sm text-left">
                   Activities
                 </h2>
-                <nav class="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
+                <nav className="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
                   <a>Art Gallery</a>
                   <a>Workshops</a>
                   <a>Outdoor Activities</a>
@@ -44,11 +44,11 @@ function Footer() {
                   <a>Daily Activities</a>
                 </nav>
               </div>
-              <div class="p-4 lg:w-1/4 w-1/2 ">
-                <h2 class="font-semibold tracking-widest text-gray-900 mb-3 text-base lg:text-sm text-left">
+              <div className="p-4 lg:w-1/4 w-1/2 ">
+                <h2 className="font-semibold tracking-widest text-gray-900 mb-3 text-base lg:text-sm text-left">
                   Popular Course
                 </h2>
-                <nav class="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
+                <nav className="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
                   <a>Diploma in Fine Arts</a>
                   <a>Certificate Hobby Course</a>
                   <a>Entrance Preparation</a>
@@ -57,11 +57,11 @@ function Footer() {
                   <a>Kids Diploma</a>
                 </nav>
               </div>
-              <div class="p-4 lg:w-1/4 w-1/2">
-                <h2 class="font-semibold tracking-widest text-gray-900 mb-3 text-base lg:text-sm text-left">
+              <div className="p-4 lg:w-1/4 w-1/2">
+                <h2 className="font-semibold tracking-widest text-gray-900 mb-3 text-base lg:text-sm text-left">
                   Our Locations
                 </h2>
-                <nav class="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
+                <nav className="flex flex-col sm:items-start text-left font-normal text-base lg:text-sm -mb-1 space-y-1">
                   <a>Gurgaon (Dlf Phase - 4)</a>
                   <a>Mumbai (Andheri West)</a>
                   <a>South Delhi (Kailash Colony)</a>
