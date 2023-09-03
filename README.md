@@ -2,6 +2,63 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# NIFA Fine Art
+
+![NIFA Fine Art Logo](link-to-your-logo.png)
+
+## Overview
+
+Provide a brief introduction to your project. What is NIFA Fine Art, and what problem does it solve? You can include the project's mission, goals, or any other relevant context.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Getting Started
+
+Explain how to set up and run your project. Include detailed step-by-step instructions.
+
+### Prerequisites
+
+List any software, tools, or dependencies that users need to install before using your project.
+
+### Installation
+
+Provide clear instructions on how to install your project. Include code snippets if necessary.
+
+## Usage
+
+Explain how to use your project. Provide examples, code snippets, or screenshots to illustrate its usage.
+
+## Features
+
+List the key features of your project.
+
+## Contributing
+
+Explain how others can contribute to your project, whether through bug reports, feature requests, or code contributions.
+
+## License
+
+State the license under which your project is distributed.
+
+---
+
+Feel free to customize the sections and content to suit your project's needs. Additionally, consider including the following:
+
+- Screenshots or GIFs to showcase your project's user interface or functionality.
+- Links to your project's website or live demo, if applicable.
+- Acknowledgments or credits for any third-party libraries, tools, or resources you used.
+
+Remember to replace placeholders like `link-to-your-logo.png` with the actual URLs or content relevant to your project. If you have specific questions or need help with any section, please let me know!
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -28,44 +85,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# nifa-fine-art
