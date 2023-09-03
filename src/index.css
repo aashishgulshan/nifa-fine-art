@@ -68,7 +68,7 @@ code {
   position: relative;
   background:linear-gradient(100deg, rgba(0, 0, 0, 1), rgba(35, 31, 32, 0.6)), url('./assets/bgs/bgimage1.jpg') no-repeat center;
   background-size: cover;
-  padding: 90px 15px;
+  padding: 70px 15px;
   background-attachment: fixed;
 }
 /* .parallaxBG{
