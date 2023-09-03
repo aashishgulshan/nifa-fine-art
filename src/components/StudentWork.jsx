@@ -17,10 +17,22 @@ function StudentWork() {
   return (
     <div className='w-full lg:w-3/5 mx-auto my-10'>
       <h2 className='font-bold text-2xl lg:text-3xl text-center my-6'>Students Work</h2>
-      <div className='flex flex-wrap gap-6 '>
-      <img src={img1} className='rounded-xl w-64' alt="" />
-      <img src={img2} className='rounded-xl w-64' alt="" />
-      <img src={img3} className='rounded-xl w-64' alt="" />
+      <div className='flex flex-row flex-wrap items-start justify-start space-x-5 space-y-8'>
+        <div className='flex justify-between gap-3'>
+        <div className='w-1/3'>
+        <img src={img1} className='rounded-xl object-cover' alt="" />
+
+        </div>
+        <div className='w-1/3'>
+        <img src={img2} className='rounded-xl object-cover' alt="" />
+
+        </div>
+        <div className='w-1/3'>
+      <img src={img3} className='rounded-xl object-cover' alt="" />
+        </div>
+
+        </div>
+        
       <img src={img4} className='rounded-xl w-64' alt="" />
       <img src={img5} className='rounded-xl h-64' alt="" />
       <img src={img6} className='rounded-xl h-64' alt="" />
