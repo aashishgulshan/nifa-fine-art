@@ -12,8 +12,8 @@ function Heros() {
         
 
         
-        <div className="flex-col items-center justify-center text-center py-12 lg:px-0 px-4">
-        <h1 className="font-bold text-[3.5vh] text-center mb-4">Welcome To National Institute of Fine Arts</h1>
+        <div className="flex-col items-center justify-center text-center py-12 lg:px-2 md:px-4 px-6">
+        <h1 className="font-bold text-lg md:text-xl lg:text-3xl text-center mb-4">Welcome To National Institute of Fine Arts</h1>
 
           <p className="text-center text-sm font-light mb-4">
             National Institute of Fine Arts (NIFA) is a national center for
